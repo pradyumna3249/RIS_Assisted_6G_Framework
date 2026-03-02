@@ -10,48 +10,64 @@ The project validates analytical expressions using numerical simulation and demo
 
 The composite channel consists of:
 
-- Direct channel component
-- RIS-assisted reflected component
-- Statistical modeling under Nakagami-m fading
-- Parameter variations for m1, m2 and RIS elements N
+- Direct channel component  
+- RIS-assisted reflected component  
+- Statistical modeling under Nakagami-m fading  
+- Parameter variations for m₁, m₂ and RIS elements N  
 
 Analytical PDFs are validated against Monte Carlo simulations.
 
 ---
 
-## 📊 Results
+# 📊 Results
 
-### 🔹 Figure 2: Stable Implementation of RIS-Assisted Composite Channel PDF
+### 🔹 Figure 1: Composite Channel PDF
 
 <p align="center">
-  <img src="results/fig2_composite_pdf.jpeg" width="750"/>
+  <img src="fig4.png" width="750"/>
 </p>
 
 ---
 
-### 🔹 Figure 3: PDF of Envelope Starting from Origin
+### 🔹 Figure 2: Envelope PDF
 
 <p align="center">
-  <img src="results/fig3_envelope_pdf.jpeg" width="750"/>
+  <img src="fig5.png" width="750"/>
 </p>
 
 ---
 
-### 🔹 Figure 4: Phase Distribution f_{∠h}(θ)
+### 🔹 Figure 3: Channel Switching / Statistical Variation
 
 <p align="center">
-  <img src="results/fig4_phase_distribution.jpeg" width="750"/>
+  <img src="fig6.png" width="750"/>
+</p>
+
+---
+
+### 🔹 Figure 4: Throughput Analysis (N = 32)
+
+<p align="center">
+  <img src="fig7.png" width="750"/>
+</p>
+
+---
+
+### 🔹 Figure 5: Throughput Analysis (N = 64)
+
+<p align="center">
+  <img src="fig8.png" width="750"/>
 </p>
 
 ---
 
 ## 🧠 Methodology
 
-- Composite channel modeling with RIS + Direct link
-- Nakagami-m fading parameters (m1, m2)
-- Variation of RIS elements (N = 32, 64)
-- Closed-form PDF derivation
-- Monte Carlo simulation validation
+- Composite channel modeling with RIS + Direct link  
+- Nakagami-m fading parameters (m₁, m₂)  
+- Variation of RIS elements (N = 32, 64)  
+- Closed-form PDF derivation  
+- Monte Carlo simulation validation  
 
 ---
 
@@ -59,9 +75,9 @@ Analytical PDFs are validated against Monte Carlo simulations.
 
 Python scripts included:
 
-- figure_2.py
-- fig3.python.py
-- fig4_a,b.py
+- `figure_2.py`
+- `fig3.python.py`
+- `fig4_a,b.py`
 
 Run using:
 
@@ -73,10 +89,11 @@ python figure_2.py
 
 ## 👨‍🔬 Author
 
-Ogiboyina Jaya Pradyumna Kumar Yadav  
+**Ogiboyina Jaya Pradyumna Kumar Yadav**  
 National Institute of Technology Delhi  
 
-Research Area: RIS-Assisted 6G Systems, Statistical Channel Modeling, Digital Twin Integration
+Research Area:  
+RIS-Assisted 6G Systems • Statistical Channel Modeling • Digital Twin Integration  
 
 ---
 
