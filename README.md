@@ -21,26 +21,26 @@ Analytical PDFs are validated against Monte Carlo simulations.
 
 # 📊 Results
 
-### 🔹 Figure 1: Composite Channel PDF (Real Part Distribution)
+### 🔹 Figure 1: Stable Implementation of RIS-Assisted Composite Channel PDF
 
 <p align="center">
-  <img src="Figure_2_final_1.jpeg" width="800"/>
+  <img src="fig2_composite_pdf.jpeg" width="850"/>
 </p>
 
 ---
 
-### 🔹 Figure 2: Envelope PDF Starting from Origin
+### 🔹 Figure 2: PDF of Envelope Starting from Origin
 
 <p align="center">
-  <img src="Figure_3_final.jpeg" width="800"/>
+  <img src="fig3_envelope_pdf.jpeg" width="850"/>
 </p>
 
 ---
 
-### 🔹 Figure 3: Phase Distribution \( f_{\angle h}(\theta) \) for N = 32 and N = 64
+### 🔹 Figure 3: Phase Distribution \( f_{\angle h}(\theta) \)
 
 <p align="center">
-  <img src="Figure_4_final.jpeg" width="900"/>
+  <img src="fig4_phase_distribution.jpeg" width="900"/>
 </p>
 
 ---
