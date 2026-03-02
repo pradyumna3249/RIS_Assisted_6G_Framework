@@ -21,42 +21,26 @@ Analytical PDFs are validated against Monte Carlo simulations.
 
 # 📊 Results
 
-### 🔹 Figure 1: Composite Channel PDF
+### 🔹 Figure 1: Composite Channel PDF (Real Part Distribution)
 
 <p align="center">
-  <img src="fig4.png" width="750"/>
+  <img src="Figure_2_final_1.jpeg" width="800"/>
 </p>
 
 ---
 
-### 🔹 Figure 2: Envelope PDF
+### 🔹 Figure 2: Envelope PDF Starting from Origin
 
 <p align="center">
-  <img src="fig5.png" width="750"/>
+  <img src="Figure_3_final.jpeg" width="800"/>
 </p>
 
 ---
 
-### 🔹 Figure 3: Channel Switching / Statistical Variation
+### 🔹 Figure 3: Phase Distribution \( f_{\angle h}(\theta) \) for N = 32 and N = 64
 
 <p align="center">
-  <img src="fig6.png" width="750"/>
-</p>
-
----
-
-### 🔹 Figure 4: Throughput Analysis (N = 32)
-
-<p align="center">
-  <img src="fig7.png" width="750"/>
-</p>
-
----
-
-### 🔹 Figure 5: Throughput Analysis (N = 64)
-
-<p align="center">
-  <img src="fig8.png" width="750"/>
+  <img src="Figure_4_final.jpeg" width="900"/>
 </p>
 
 ---
